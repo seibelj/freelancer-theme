@@ -7,23 +7,23 @@
                         <h3>{{ site.footer.location }}</h3>
                         <p>
                             {% for adress in site.address %}
-                                {{ adress.line }} <br>
+                                <i>{{ adress.line }}</i> <br>
 		                    {% endfor %}
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
-                        </ul>
+                        <h3>Email Directly</h3>
+                        <p>
+                            <a href="mailto:james@bostonboardgame.com">
+                                james@bostonboardgame.com
+                            </a>
+                        </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <h3>Company</h3>
+                        <p>Founded by <u><a target="_blank" href="http://jamesseibel.com/">James
+                        Seibel</a></u> with the assistance of his
+                        professional network and many board gaming friends.</p>
                     </div>
                 </div>
             </div>

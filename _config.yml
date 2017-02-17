@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Boston Board Game Company
+email: james@bostonboardgame.com
+url: http://bostonboardgame.com
+description: "The Boston Board Game Company is dedicated to creating new, innovative digital board game solutions for board game publishers."
+subtitle: "Creating Innovative Digital Solutions for Board Game Publishers"
+meta_author: Seibel James
 
 # Google webmaster tools
 google_verify:
@@ -24,15 +24,15 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: FFFFFF #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Jamesys Technologies LLC
+  location: Boston, Massachusetts, USA
   social: Around the Web
   credits: Credits
 
@@ -51,8 +51,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: "“ One if by land,"
+  - line: "Two if by sea ”"
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

@@ -101,11 +101,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color: #094716;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #094716;
 }
 
 @media(min-width:768px) {
@@ -147,6 +149,17 @@ header .intro-text .skills {
     }
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)  {
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -171,7 +184,14 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#software {
+    padding-bottom: 0px;
 }
 
 section h2 {
